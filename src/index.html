@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/css/all.min.css">
+    <link rel="stylesheet" href="../dist/css/style.css">
+    <title>medilab</title>
+</head>
+<body>
+
+   <div class="scroll-to-top  fixed right-5 bottom-14 bg-none cursor-pointer">
+    <div class="scroll-icon flex justify-center items-center w-14  rounded-lg bg-blue-600 ">
+        <i class="fa-solid fa-angles-up fa-3x  px-2 py-1 text-white"></i>
+    </div>
+  </div>
+   
+
+
+    <!-- navbar -->
+   <nav id="navbar" class=" p-6 fixed left-0 bg-white right-0 top-0 z-50 shadow-md ">
+    <div class="max-w-screen-xl mx-auto relative ">
+        <div class="container mx-auto flex md:justify-between items-center ">
+            <h1 class="flex items-center text-blue-950 text-3xl font-bold capitalize gap-2">
+                medilab
+            </h1>
+
+            <ul class=" hidden lg:flex gap-8">
+                <li class=" relative  capitalize before:w-0 before:h-[2px] before:bg-blue-600 before:absolute before:left-0 before:-bottom-2 hover:before:w-full before:transition-[width] before:duration-300">
+                    <a href="#home" class="font-semibold text-gray-800">Home</a>
+                </li>
+                <li class=" relative capitalize before:w-0 before:h-[2px] before:bg-blue-600 before:absolute before:left-0 before:-bottom-2 hover:before:w-full before:transition-[width] before:duration-300">
+                    <a href="#about" class="font-semibold text-gray-800">about</a>
+                </li>
+                <li class=" relative capitalize before:w-0 before:h-[2px] before:bg-blue-600 before:absolute before:left-0 before:-bottom-2 hover:before:w-full before:transition-[width] before:duration-300">
+                    <a href="#services" class="font-semibold text-gray-800">services</a>
+                </li>
+                <li class=" relative  capitalize before:w-0 before:h-[2px] before:bg-blue-600 before:absolute before:left-0 before:-bottom-2 hover:before:w-full before:transition-[width] before:duration-300">
+                    <a href="#departments" class="font-semibold text-gray-800">departments</a>
+                </li>
+                <li class=" relative capitalize before:w-0 before:h-[2px] before:bg-blue-600 before:absolute before:left-0 before:-bottom-2 hover:before:w-full before:transition-[width] before:duration-300">
+                    <a href="#doctors" class="font-semibold text-gray-800">doctors</a>
+                </li>
+                <li class=" relative capitalize before:w-0 before:h-[2px] before:bg-blue-600 before:absolute before:left-0 before:-bottom-2 hover:before:w-full before:transition-[width] before:duration-300">
+                    <a href="#contact" class="font-semibold text-gray-800">Contact</a>
+                </li>
+            </ul>
+
+            <a href="#appointment" class=" bg-blue-600 text-white rounded-full p-3 capitalize">make an appointment</a>
+
+            <button class="lg:hidden ms-auto md:ms-3 ">
+                <i class="fa-solid fa-bars fa-lg"></i>
+            </button>
+
+            <!-- dropdown menun -->
+
+             <ul id="dropdownmenun" class="flex flex-col  gap-8 absolute left-0 top-24 right-0 bg-white p-5 ">
+              <li class=" relative  before:w-0 before:h-[2px] before:bg-blue-600 capitalize before:absolute before:left-0 before:-bottom-2 hover:before:w-20 before:transition-[width] before:duration-300">
+                  <a href="#home" class="font-semibold text-gray-800">Home</a>
+              </li>
+              <li class=" relative before:w-0 before:h-[2px] before:bg-blue-600 capitalize before:absolute before:left-0 before:-bottom-2 hover:before:w-20 before:transition-[width] before:duration-300">
+                  <a href="#about" class="font-semibold text-gray-800">about</a>
+              </li>
+              <li class=" relative before:w-0 before:h-[2px] before:bg-blue-600 capitalize before:absolute before:left-0 before:-bottom-2 hover:before:w-20 before:transition-[width] before:duration-300">
+                  <a href="#services" class="font-semibold text-gray-800">services</a>
+              </li>
+              <li class=" relative before:w-0 before:h-[2px] before:bg-blue-600 capitalize before:absolute before:left-0 before:-bottom-2 hover:before:w-20 before:transition-[width] before:duration-300">
+                  <a href="#departments" class="font-semibold text-gray-800">departments</a>
+              </li>
+              <li class=" relative before:w-0 before:h-[2px] before:bg-blue-600 capitalize before:absolute before:left-0 before:-bottom-2 hover:before:w-20 before:transition-[width] before:duration-300">
+                  <a href="#doctors" class="font-semibold text-gray-800">doctors</a>
+              </li>
+              <li class=" relative before:w-0 before:h-[2px] before:bg-blue-600 capitalize before:absolute before:left-0 before:-bottom-2 hover:before:w-20 before:transition-[width] before:duration-300">
+                  <a href="#contact" class="font-semibold text-gray-800">Contact</a>
+              </li>
+          </ul> 
+
+        </div>
+    </div>
+   </nav>
+
+
+   <!-- home section -->
+    <main id="home" class="relative home bg-slate-200 min-h-screen">
+      <div class=" max-w-screen-xl mx-auto py-40 flex justify-center items-center  ">
+      
+       <div class="container mx-auto  ">
+         
+         <section class="p-6 sm:max-lg:p-5 lg:p-0">
+         <div class="absolute right-0 left-0 top-16 z-0 ">
+            <img src="./images/hero-bg.jpg" class="w-full bg-cover bg-center" alt=""> 
+         </div> 
+
+          <h1 class="text-4xl font-black uppercase leading-tight text-sky-900 relative z-10">WELCOME TO MEDILAB</h1>
+          <p class="text-slate-800 capitalize text-xl mt-3 relative z-10">We are team of talented designers making websites with tailwindcss</p>
+          <div class=" flex flex-col lg:flex-row sm:max-lg:gap-5 lg:gap-7 ">
+            <div class="card bg-sky-400 lg:w-96 lg:h-full w-full shadow-xl mt-7 mb-2" >
+              <div class="card-body">
+                <h2 class="card-title text-white text-3xl font-black sm:max-lg:mx-auto">Why Choose Medilab?</h2>
+                <p class="my-9 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+                <div class="card-actions justify-end">
+                  <button class="bg-blue-600 p-3 capitalize text-white rounded-lg mx-auto">learn more</button>
+                </div>
+              </div>
+            </div>
+    
+           <div class="my-28 flex flex-col lg:flex-row gap-5">
+            <div class="card bg-slate-50 lg:w-72 lg:h-full sm:max-lg:w-full shadow-xl">
+              <div class="card-body">
+                <i class="fa-solid fa-clipboard-list fa-3x text-sky-500 text-center"></i>
+                <h2 class="card-title text-sky-900 text-xl font-black sm:max-lg:mx-auto my-7">Corporis voluptates officia eiusmod</h2>
+                <p class=" ">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                
+              </div>
+            </div>
+    
+            <div class="card bg-slate-50 lg:w-72 lg:h-full sm:max-lg:w-full shadow-xl">
+              <div class="card-body">
+                <i class="fa-regular fa-gem fa-3x text-sky-500 text-center"></i>
+                <h2 class="card-title text-sky-900 text-xl font-black sm:max-lg:mx-auto my-7">Ullamco laboris ladore pan</h2>
+                <p class=" ">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                
+              </div>
+            </div>
+    
+            <div class="card bg-slate-50 lg:w-72 lg:h-full sm:max-lg:w-full shadow-xl ">
+              <div class="card-body">
+                <i class="fa-solid fa-inbox fa-3x text-sky-500 text-center"></i>
+                <h2 class="card-title text-sky-900 text-xl font-black sm:max-lg:mx-auto my-7">Labore consequatur incidid dolore</h2>
+                <p class=" ">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                
+              </div>
+            </div>
+           </div>
+          </div>
+
+        
+         </section>
+
+       
+
+
+      </div>
+    </div>
+
+   </main> 
+
+
+   <!-- about section -->
+    <section id="about" class="py-28 bg-white">
+      <div class="max-w-screen-xl mx-auto flex justify-center items-center">
+        <div class="container mx-auto ">
+          <div class="grid grid-cols-12 gap-9 p-10 lg:p-5">
+            <div class="img-sec col-span-12 lg:col-span-6">
+              <img src="./images/about.jpg" class="w-full" alt="">
+
+            </div>
+
+            <div class="about-caption col-span-12 lg:col-span-6 ">
+              <h2 class="text-4xl font-black capitalize leading-tight text-sky-900 ">About Us</h2>
+              <p class="text-slate-800 capitalize text-xl mt-3">Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.</p>
+              <ul class="my-6">
+                <li class="flex gap-3">
+                  <span><i class="fa-solid fa-vial-circle-check fa-3x text-sky-500"></i></span>
+                  <span>
+                    <h3 class="text-xl font-black uppercase leading-tight text-sky-900 ">Ullamco laboris nisi ut aliquip consequat</h3>
+                    <p class="text-slate-800 capitalize text-lg mt-3">Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                  </span>
+                </li>
+
+                <li class="flex gap-3 my-2">
+                  <span><i class="fa-solid fa-pump-medical fa-3x text-sky-500"></i></span>
+                  <span>
+                    <h3 class="text-xl font-black uppercase leading-tight text-sky-900 ">Magnam soluta odio exercitationem reprehenderi</h3>
+                    <p class="text-slate-800 capitalize text-lg mt-3">Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
+                  </span>
+                </li>
+
+                <li class="flex gap-3">
+                  <span><<i class="fa-solid fa-heart-circle-check fa-3x text-sky-500"></i></span>
+                  <span>
+                    <h3 class="text-xl font-black uppercase leading-tight text-sky-900 ">Voluptatem et qui exercitationem</h3>
+                    <p class="text-slate-800 capitalize text-lg mt-3">Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam</p>
+                  </span>
+                </li>
+              </ul>
+
+          
+            </div>
+
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bg-indigo-100 ">
+      <div class="max-w-screen-xl mx-auto py-28">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-5">
+          <div class="relative bg-white shadow-md  w-full p-4">
+            <i class="fa-solid fa-user-doctor fa-2x absolute left-1/2 -translate-x-1/2 -top-5 bg-sky-500 text-white rounded-full p-3"></i>
+            <h2 class="text-4xl font-black  text-sky-900 text-center my-9">85</h2>
+            <p class="text-slate-800 capitalize text-xl  text-center">doctors</p>
+          </div>
+          <div class="relative bg-white shadow-md  w-full">
+            <i class="fa-solid fa-hospital fa-2x absolute left-1/2 -translate-x-1/2 -top-5 bg-sky-500 text-white rounded-full p-3"></i>
+            <h2 class="text-4xl font-black  text-sky-900 text-center my-11">18</h2>
+            <p class="text-slate-800 capitalize text-xl  text-center">Departments</p>
+          </div>
+          <div class="relative bg-white shadow-md w-full ">
+            <i class="fa-solid fa-flask fa-2x absolute left-1/2 -translate-x-1/2 -top-5 bg-sky-500 text-white rounded-full p-3"></i>
+            <h2 class="text-4xl font-black  text-sky-900 text-center my-11">12</h2>
+            <p class="text-slate-800 capitalize text-xl  text-center">Research Labs</p>
+          </div>
+          <div class="relative bg-white shadow-md w-full">
+            <i class="fa-solid fa-award fa-2x absolute left-1/2 -translate-x-1/2 -top-5 bg-sky-500 text-white rounded-full p-3"></i>
+            <h2 class="text-4xl font-black  text-sky-900 text-center my-11">150</h2>
+            <p class="text-slate-800 capitalize text-xl  text-center">Awards</p>
+          </div>
+          
+            
+          
+        </div>
+      </div>
+    </section>
+
+      <!-- services section -->
+    <section id="services" class="bg-white">
+      <div class="max-w-screen-xl mx-auto py-24">
+        <div class="text-center my-8 sec-title">
+          <h2 class="text-4xl font-bold capitalize text-sky-900">Services</h2>
+          <div class="relative mt-2">
+            <div class="w-28 h-0.5 bg-gray-400 mx-auto"></div>
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-11 h-0.5 bg-sky-500"></div>
+          </div>
+        </div>
+        <p class="text-slate-800 capitalize text-xl  text-center my-10">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="container mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5 ">
+          <div class="shadow-sm border border-gray-300   bg-white w-full p-3 group hover:bg-sky-500">
+            <div class="relative   w-16 h-16 flex items-center justify-center group-hover:bg-white  bg-sky-500  rounded-md shadow-md mx-auto">
+              <div class="absolute -left-2  w-16 h-16 bg-gray-400 rounded-md -z-20"></div>
+              <i class="fas fa-heartbeat text-white fa-2x group-hover:text-sky-500  z-30"></i>
+            </div>
+            <h2 class="text-2xl font-black  text-sky-900 text-center mt-7 group-hover:text-white">Nesciunt Mete</h2>
+            <p class="text-slate-800 capitalize text-sm  text-center my-6 group-hover:text-white ">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+          </div>
+
+          <div class="shadow-sm border border-gray-300 bg-white w-full p-3 group hover:bg-sky-500">
+            <div class="relative   w-16 h-16 flex items-center justify-center group-hover:bg-white  bg-sky-500  rounded-md shadow-md mx-auto">
+              <div class="absolute -left-2  w-16 h-16 bg-gray-400 rounded-md -z-20"></div>
+              <i class="fas fa-pills text-white fa-2x group-hover:text-sky-500 z-30"></i>
+            </div>
+            <h2 class="text-2xl font-black  text-sky-900 group-hover:text-white text-center mt-7">Eosle Commodi</h2>
+            <p class="text-slate-800 capitalize text-sm  group-hover:text-white text-center my-6 ">Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+          </div>
+
+          <div class="shadow-sm border border-gray-300 bg-white w-full p-3 group hover:bg-sky-500">
+            <div class="relative   w-16 h-16 flex items-center justify-center  bg-sky-500 group-hover:bg-white  rounded-md shadow-sm mx-auto">
+              <div class="absolute -left-2  w-16 h-16 bg-gray-400 rounded-md -z-20"></div>
+              <i class="fas fa-hospital-user text-white fa-2x group-hover:text-sky-500  z-30"></i>
+            </div>
+            <h2 class="text-2xl font-black  text-sky-900 group-hover:text-white text-center mt-7">Ledo Markt</h2>
+            <p class="text-slate-800 capitalize text-sm group-hover:text-white  text-center my-6 ">Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+          </div>
+
+          <div class="shadow-sm border border-gray-300 bg-white w-full p-3 group hover:bg-sky-500">
+            <div class="relative   w-16 h-16 flex items-center justify-center  bg-sky-500 group-hover:bg-white  rounded-md shadow-sm mx-auto">
+              <div class="absolute -left-2  w-16 h-16 bg-gray-400 rounded-md -z-20"></div>
+              <i class="fas fa-dna text-white fa-2x group-hover:text-sky-500  z-30"></i>
+            </div>
+            <h2 class="text-2xl font-black  text-sky-900 group-hover:text-white text-center mt-7">Asperiores Commodit</h2>
+            <p class="text-slate-800 capitalize text-sm group-hover:text-white  text-center my-6 ">Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+          </div>
+
+          <div class="shadow-sm border border-gray-300 bg-white w-full p-3 group hover:bg-sky-500">
+            <div class="relative   w-16 h-16 flex items-center justify-center  bg-sky-500 group-hover:bg-white  rounded-md shadow-sm mx-auto">
+              <div class="absolute -left-2  w-16 h-16 bg-gray-400 rounded-md -z-20"></div>
+              <i class="fas fa-wheelchair text-white fa-2x group-hover:text-sky-500  z-30"></i>
+            </div>
+            <h2 class="text-2xl font-black  text-sky-900 group-hover:text-white  text-center mt-7">Velit Doloremque</h2>
+            <p class="text-slate-800 capitalize text-sm group-hover:text-white   text-center my-6 ">Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+          </div>
+
+          <div class="shadow-sm border border-gray-300 bg-white w-full p-3 group hover:bg-sky-500">
+            <div class="relative   w-16 h-16 flex items-center justify-center  bg-sky-500 group-hover:bg-white  rounded-md shadow-md mx-auto">
+              <div class="absolute -left-2  w-16 h-16 bg-gray-400 rounded-md -z-20"></div>
+              <i class="fas fa-notes-medical text-white fa-2x group-hover:text-sky-500   z-30"></i>
+            </div>
+            <h2 class="text-2xl font-black  text-sky-900 group-hover:text-white  text-center mt-7">Dolori Architecto</h2>
+            <p class="text-slate-800 capitalize text-sm group-hover:text-white   text-center my-6 ">Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+          </div>
+
+          </div>
+
+        </div>
+    </section>
+      
+    <!-- appointment section -->
+
+    <section id="appointment" class="bg-white">
+      <div class="max-w-screen-xl mx-auto py-24">
+        
+        <div class="container mx-auto">
+          <div class="text-center my-8 sec-title">
+            <h2 class="text-4xl font-bold capitalize text-sky-900">appointment</h2>
+            <div class="relative mt-2">
+              <div class="w-44 h-0.5 bg-gray-400 mx-auto"></div>
+              <div class="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-0.5 bg-sky-500"></div>
+            </div>
+          </div>
+          <p class="text-slate-800 capitalize text-xl  text-center my-10">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <div class="grid grid-cols-12">
+            <div class="col-span-12  space-y-10 p-5">
+              <div class="flex flex-col lg:flex-row justify-between gap-5">
+                <input type="text" placeholder="your name" class=" w-full lg:w-1/2 bg-white text-black border-2 border-blue-300 p-2">
+                <input type="email" placeholder="your email" class="w-full lg:w-1/2 bg-white text-black border-2 border-blue-300 p-2">
+                <input type="tel" placeholder="your phone" class="w-full lg:w-1/2 bg-white text-black border-2 border-blue-300 p-2">
+              </div>
+              <div class="flex flex-col lg:flex-row justify-between gap-5">
+                <input type="datetime-local" class="w-full lg:w-1/2 bg-white text-black border-2 border-blue-300 p-2">
+                <select name="departement" class="w-full lg:w-1/2 bg-white text-black border-2 border-blue-300 p-2">
+                  <option value="1">Select Departement </option>
+                  <option value="1">Departement 1</option>
+                  <option value="1">Departement 2</option>
+                  <option value="1">Departement 3</option>
+                </select>
+                <select name="doctor" class="w-full lg:w-1/2 bg-white text-black border-2 border-blue-300 p-2">
+                  <option value="1">Select Doctor </option>
+                  <option value="1">Doctor 1</option>
+                  <option value="1">Doctor 2</option>
+                  <option value="1">Doctor 3</option>
+                </select>
+              </div>
+    
+              <div>
+                <textarea
+                  placeholder="Message (optional)"
+                  class=" textarea-lg w-full border-2 border-blue-300 bg-white text-black p-4 "></textarea>
+              </div>
+    
+              <button class="block mx-auto bg-blue-600 text-white text-lg font-semibold rounded-full px-5 py-3 capitalize">make an appointment</button>
+              
+             </div>
+          </div>
+  
+         
+           
+          
+
+          </div>
+
+        </div>
+    </section>
+
+
+    <!-- departements section-->
+
+    <section id="departments" class="bg-white">
+      <div class="max-w-screen-xl mx-auto py-24 ">
+        <div class="container mx-auto">
+          <div class="text-center my-8 sec-title">
+            <h2 class="text-4xl font-bold capitalize text-sky-900">Departments</h2>
+            <div class="relative mt-2">
+              <div class="w-44 h-0.5 bg-gray-400 mx-auto"></div>
+              <div class="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-0.5 bg-sky-500"></div>
+            </div>
+          </div>
+          <p class="text-slate-800 capitalize text-xl  text-center my-10">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <div class="flex flex-col lg:flex-row gap-10">
+            <div class="w-full lg:w-1/4">
+              <ul class="space-y-4">
+                <li data-target="cardiology" class="text-blue-500 font-bold border-r-2 border-blue-500 hover:text-blue-500  cursor-pointer  pl-3">Cardiology</li>
+                <li data-target="neurology" class="text-gray-700 font-bold border-r-2 border-blue-500 hover:text-blue-500 cursor-pointer pl-3">Neurology</li>
+                <li data-target="hepatology" class="text-gray-700 font-bold border-r-2 border-blue-500 hover:text-blue-500 cursor-pointer pl-3">Hepatology</li>
+                <li data-target="pediatrics" class="text-gray-700 font-bold border-r-2 border-blue-500 hover:text-blue-500 cursor-pointer pl-3">Pediatrics</li>
+                <li data-target="eyecare"  class="text-gray-700 font-bold border-r-2 border-blue-500 hover:text-blue-500 cursor-pointer pl-3">Eye Care</li>
+              </ul>
+            </div>
+          
+            <!-- Right Content -->
+            <div class="w-full lg:w-3/4 flex flex-col lg:flex-row gap-8" id="cardiology">
+              <!-- Text Content -->
+              <div class="lg:w-2/3">
+                <h2 class="text-2xl font-bold text-gray-800">Cardiology</h2>
+                <p class="italic text-gray-600 mt-2">
+                  Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka
+                </p>
+                <p class="text-gray-700 mt-4">
+                  Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni.
+                  Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem
+                  quaerat quos qui similique accusamus nostrum rem vero.
+                </p>
+              </div>
+              
+              <!-- Image -->
+              <div class="lg:w-1/3">
+                <img src="./images/departments-1.jpg" alt="Cardiology" class="rounded-lg shadow-md">
+              </div>
+            </div>
+
+            <div class="w-full lg:w-3/4 flex flex-col lg:flex-row gap-8  hidden " id="neurology">
+              <!-- Text Content -->
+              <div class="lg:w-2/3">
+                <h2 class="text-2xl font-bold text-gray-800">Et blanditiis nemo veritatis excepturi</h2>
+                <p class="italic text-gray-600 mt-2">
+                  Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka
+                </p>
+                <p class="text-gray-700 mt-4">
+                  Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal
+                </p>
+              </div>
+              
+              <!-- Image -->
+              <div class="lg:w-1/3">
+                <img src="./images/departments-2.jpg" alt="Cardiology" class="rounded-lg shadow-md">
+              </div>
+            </div>
+
+            <div class="w-full lg:w-3/4 flex flex-col lg:flex-row gap-8  hidden " id="hepatology">
+              <!-- Text Content -->
+              <div class="lg:w-2/3">
+                <h2 class="text-2xl font-bold text-gray-800">Impedit facilis occaecati odio neque aperiam sit</h2>
+                <p class="italic text-gray-600 mt-2">
+                  Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut
+                </p>
+                <p class="text-gray-700 mt-4">
+                  Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae
+                </p>
+              </div>
+              
+              <!-- Image -->
+              <div class="lg:w-1/3">
+                <img src="./images/departments-3.jpg" alt="Cardiology" class="rounded-lg shadow-md">
+              </div>
+            </div>
+
+            <div class="w-full lg:w-3/4 flex flex-col lg:flex-row gap-8  hidden " id="pediatrics">
+              <!-- Text Content -->
+              <div class="lg:w-2/3">
+                <h2 class="text-2xl font-bold text-gray-800">Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h2>
+                <p class="italic text-gray-600 mt-2">
+                  Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus
+                </p>
+                <p class="text-gray-700 mt-4">
+                  Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore
+                </p>
+              </div>
+              
+              <!-- Image -->
+              <div class="lg:w-1/3">
+                <img src="./images/departments-4.jpg" alt="Cardiology" class="rounded-lg shadow-md">
+              </div>
+            </div>
+
+            <div class="w-full lg:w-3/4 flex flex-col lg:flex-row gap-8  hidden" id="eyecare">
+              <!-- Text Content -->
+              <div class="lg:w-2/3">
+                <h2 class="text-2xl font-bold text-gray-800">Est eveniet ipsam sindera pad rone matrelat sando reda</h2>
+                <p class="italic text-gray-600 mt-2">
+                  Omnis blanditiis saepe eos autem qui sunt debitis porro quia.
+                </p>
+                <p class="text-gray-700 mt-4">
+                  Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel
+                </p>
+              </div>
+              
+              <!-- Image -->
+              <div class="lg:w-1/3">
+                <img src="./images/departments-5.jpg" alt="Cardiology" class="rounded-lg shadow-md">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- doctors section -->
+    <section id="doctors" class="bg-gray-100 ">
+      <div class="max-w-screen-xl mx-auto py-24">
+        <div class="text-center my-8 sec-title">
+          <h2 class="text-4xl font-bold capitalize text-sky-900">doctors</h2>
+          <div class="relative mt-2">
+            <div class="w-28 h-0.5 bg-gray-400 mx-auto"></div>
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-11 h-0.5 bg-sky-500"></div>
+          </div>
+        </div>
+        <p class="text-slate-800 capitalize text-xl  text-center my-10">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="container mx-auto  grid grid-cols-1  lg:grid-cols-2   gap-5 ">
+          <div class=" bg-white shadow-lg rounded cursor-pointer flex gap-7 hover:scale-y-105">
+            <div class="card-img rounded-lg py-6 px-4">
+              <img src="./images/doctors/doctors-1.jpg" class="w-56 rounded-xl" alt="">
+            </div>
+            <div class="card-caption p-8">
+              <h2 class="text-2xl font-bold capitalize text-sky-900">Walter White</h2>
+              <h3 class="text-gray-950 capitalize text-lg  my-5">Chief Medical Officer</h3>
+              <p class="text-slate-800 capitalize text-sm  my-5">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+
+              <div class="flex gap-5 ">
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500 "><i class="fa-brands fa-x-twitter fa-1x text-gray-600 hover:text-white p-2"></i></span>
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500 "><i class="fa-brands fa-facebook fa-1x text-gray-600 hover:text-white p-2"></i></span>
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500"><i class="fa-brands fa-instagram fa-1x text-gray-600 hover:text-white p-2"></i></span>
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500"><i class="fa-brands fa-linkedin fa-1x text-gray-600 hover:text-white p-2"></i></span>
+
+              </div>
+
+            </div>
+           
+          </div>
+
+          <div class=" bg-white shadow-lg rounded cursor-pointer flex gap-7 hover:scale-y-105">
+            <div class="card-img rounded-lg py-6 px-4">
+              <img src="./images/doctors/doctors-2.jpg" class="w-56 rounded-xl" alt="">
+            </div>
+            <div class="card-caption p-8">
+              <h2 class="text-2xl font-bold capitalize text-sky-900">Sarah Jhonson</h2>
+              <h3 class="text-gray-950 capitalize text-lg  my-5">Anesthesiologist</h3>
+              <p class="text-slate-800 capitalize text-sm  my-5">Aut maiores voluptates amet et quis praesentium qui senda para</p>
+
+              <div class="flex gap-5 ">
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500 "><i class="fa-brands fa-x-twitter fa-1x text-gray-600 hover:text-white p-2"></i></span>
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500 "><i class="fa-brands fa-facebook fa-1x text-gray-600 hover:text-white p-2"></i></span>
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500"><i class="fa-brands fa-instagram fa-1x text-gray-600 hover:text-white p-2"></i></span>
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500"><i class="fa-brands fa-linkedin fa-1x text-gray-600 hover:text-white p-2"></i></span>
+
+              </div>
+
+            </div>
+           
+          </div>
+
+          <div class=" bg-white shadow-lg rounded cursor-pointer flex gap-7 hover:scale-y-105">
+            <div class="card-img rounded-lg py-6 px-4">
+              <img src="./images/doctors/doctors-3.jpg" class="w-56 rounded-xl" alt="">
+            </div>
+            <div class="card-caption p-8">
+              <h2 class="text-2xl font-bold capitalize text-sky-900">William Anderson</h2>
+              <h3 class="text-gray-950 capitalize text-lg  my-5">Cardiology</h3>
+              <p class="text-slate-800 capitalize text-sm  my-5">Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+
+              <div class="flex gap-5 ">
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500 "><i class="fa-brands fa-x-twitter fa-1x text-gray-600 hover:text-white p-2"></i></span>
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500 "><i class="fa-brands fa-facebook fa-1x text-gray-600 hover:text-white p-2"></i></span>
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500"><i class="fa-brands fa-instagram fa-1x text-gray-600 hover:text-white p-2"></i></span>
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500"><i class="fa-brands fa-linkedin fa-1x text-gray-600 hover:text-white p-2"></i></span>
+
+              </div>
+
+            </div>
+           
+          </div>
+
+          <div class=" bg-white shadow-lg rounded cursor-pointer flex gap-7 hover:scale-y-105">
+            <div class="card-img rounded-lg py-6 px-4">
+              <img src="./images/doctors/doctors-4.jpg" class="w-56 rounded-xl" alt="">
+            </div>
+            <div class="card-caption p-8">
+              <h2 class="text-2xl font-bold capitalize text-sky-900">Amanda Jepson</h2>
+              <h3 class="text-gray-950 capitalize text-lg  my-5">Neurosurgeon</h3>
+              <p class="text-slate-800 capitalize text-sm  my-5">Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+
+              <div class="flex gap-5 ">
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500 "><i class="fa-brands fa-x-twitter fa-1x text-gray-600 hover:text-white p-2"></i></span>
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500 "><i class="fa-brands fa-facebook fa-1x text-gray-600 hover:text-white p-2"></i></span>
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500"><i class="fa-brands fa-instagram fa-1x text-gray-600 hover:text-white p-2"></i></span>
+                <span class="bg-gray-200 rounded-lg hover:bg-blue-500"><i class="fa-brands fa-linkedin fa-1x text-gray-600 hover:text-white p-2"></i></span>
+
+              </div>
+
+            </div>
+           
+          </div>
+        
+
+          
+          
+        
+
+          </div>
+
+        </div>
+    </section>
+
+
+     <!-- questions section -->
+     <section id="questions" class="bg-white ">
+      <div class="max-w-screen-xl mx-auto py-24">
+        <div class="text-center my-8 sec-title">
+          <h2 class="text-4xl font-bold capitalize text-sky-900">Frequently Asked Questions</h2>
+          <div class="relative mt-2">
+            <div class="w-28 h-0.5 bg-gray-400 mx-auto"></div>
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-11 h-0.5 bg-sky-500"></div>
+          </div>
+        </div>
+        <p class="text-slate-800 capitalize text-xl  text-center my-10">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="container mx-auto space-y-5 p-5 ">
+          <div class="bg-blue-600 px-7 py-4 rounded cursor-pointer">
+            <p class="text-white capitalize text-2xl">Non consectetur a erat nam at lectus urna duis?</p>
+            <p class="text-gray-100 capitalize text-lg my-4">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+
+          </div>
+
+          <div class="bg-white shadow-lg border-2 border-blue-300 px-7 py-4 rounded cursor-pointer content" data-id="1">
+            <h3 class="text-slate-700 capitalize text-xl flex justify-between">Feugiat scelerisque varius morbi enim nunc faucibus?
+              <span class="openIcon"><i class="fa-solid fa-chevron-right"></i></span>
+            </h3>
+            <p class="text-white capitalize text-lg my-4 hidden" id="paragraph1">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+
+          </div>
+
+          <div class="bg-white shadow-lg border-2 border-blue-300 px-7 py-4 rounded cursor-pointer content" data-id="2">
+            <h3 class="text-slate-700 capitalize text-xl flex justify-between">Dolor sit amet consectetur adipiscing elit pellentesque?
+              <span class="openIcon"><i class="fa-solid fa-chevron-right"></i></span>
+            </h3>
+            <p class="text-white capitalize text-lg my-4 hidden" id="paragraph1">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.</p>
+
+          </div>
+          
+          <div class="bg-white shadow-lg border-2 border-blue-300 px-7 py-4 rounded cursor-pointer content" data-id="3">
+            <h3 class="text-slate-700 capitalize text-xl flex justify-between">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+              <span class="openIcon"><i class="fa-solid fa-chevron-right"></i></span>
+            </h3>
+            <p class="text-white capitalize text-lg my-4 hidden" id="paragraph1">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+
+          </div>
+
+          <div class="bg-white shadow-lg border-2 border-blue-300 px-7 py-4 rounded cursor-pointer content" data-id="4">
+            <h3 class="text-slate-700 capitalize text-xl flex justify-between">Tempus quam pellentesque nec nam aliquam sem et tortor?
+              <span class="openIcon"><i class="fa-solid fa-chevron-right"></i></span>
+            </h3>
+            <p class="text-white capitalize text-lg my-4 hidden" id="paragraph1">Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.</p>
+
+          </div>
+
+          <div class="bg-white shadow-lg border-2 border-blue-300 px-7 py-4 rounded cursor-pointer content" data-id="5">
+            <h3 class="text-slate-700 capitalize text-xl flex justify-between">Perspiciatis quod quo quos nulla quo illum ullam?
+              <span class="openIcon"><i class="fa-solid fa-chevron-right"></i></span>
+            </h3>
+            <p class="text-white capitalize text-lg my-4 hidden" id="paragraph1">Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
+
+          </div>
+
+          
+        
+
+          
+          
+        
+
+          </div>
+
+        </div>
+    </section>
+
+
+
+     <!-- gallery section -->
+    <section id="gallery" class="bg-white ">
+      <div class="max-w-screen-xl mx-auto py-24">
+        <div class="text-center my-8 sec-title">
+          <h2 class="text-4xl font-bold capitalize text-sky-900">Gallery</h2>
+          <div class="relative mt-2">
+            <div class="w-28 h-0.5 bg-gray-400 mx-auto"></div>
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-11 h-0.5 bg-sky-500"></div>
+          </div>
+        </div>
+        <p class="text-slate-800 capitalize text-xl  text-center my-10">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="container mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4   gap-5 ">
+          <div class="hover:scale-110 border-gray-500 rounded cursor-pointer">
+            <img src="./images/gallery/gallery-1.jpg" class="w-full" alt="">
+           
+          </div>
+          <div class="hover:scale-110 border-gray-500 rounded cursor-pointer">
+            <img src="./images/gallery/gallery-2.jpg" class="w-full" alt="">
+           
+          </div>
+          <div class="hover:scale-110 border-gray-500 rounded cursor-pointer">
+            <img src="./images/gallery/gallery-3.jpg" class="w-full" alt="">
+           
+          </div>
+
+          <div class="hover:scale-110 border-gray-500 rounded cursor-pointer">
+            <img src="./images/gallery/gallery-4.jpg" class="w-full" alt="">
+           
+          </div>
+          <div class="hover:scale-110 border-gray-500 rounded cursor-pointer">
+            <img src="./images/gallery/gallery-5.jpg" class="w-full" alt="">
+           
+          </div>
+          <div class="hover:scale-110 border-gray-500 rounded cursor-pointer">
+            <img src="./images/gallery/gallery-6.jpg" class="w-full" alt="">
+           
+          </div>
+          <div class="hover:scale-110 border-gray-500 rounded cursor-pointer">
+            <img src="./images/gallery/gallery-7.jpg" class="w-full" alt="">
+           
+          </div>
+          <div class="hover:scale-110 border-gray-500 rounded cursor-pointer">
+            <img src="./images/gallery/gallery-8.jpg" class="w-full" alt="">
+           
+          </div>
+
+        
+          
+        
+
+          </div>
+
+        </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact" class="bg-white ">
+      <div class="max-w-screen-xl mx-auto py-24">
+        <div class="text-center my-8 sec-title">
+          <h2 class="text-4xl font-bold capitalize text-sky-900">contact</h2>
+          <div class="relative mt-2">
+            <div class="w-28 h-0.5 bg-gray-400 mx-auto"></div>
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-11 h-0.5 bg-sky-500"></div>
+          </div>
+        </div>
+        <p class="text-slate-800 capitalize text-xl  text-center my-10">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="container mx-auto  p-5 grid grid-cols-12">
+           
+         <div class="col-span-12 lg:col-span-5">
+          <div class="  flex gap-5  cursor-pointer">
+            <div class=" py-4 ">
+              <i class="fa-solid fa-location-dot fa-1x p-3 bg-blue-500 text-white rounded-full"></i>
+            </div>
+            <div>
+              <h3 class="text-blue-950 capitalize text-xl flex justify-between">Location</h3>
+            <p class="text-slate-600 capitalize text-lg my-4 " >A108 Adam Street, New York, NY 535022</p>
+            </div>
+
+          </div>
+
+          <div class="  flex gap-5  cursor-pointer">
+            <div class=" py-4 ">
+              <i class="fa-solid fa-phone fa-1x p-3 bg-blue-500 text-white rounded-full"></i>
+            </div>
+            <div>
+              <h3 class="text-blue-950 capitalize text-xl flex justify-between">Call Us</h3>
+            <p class="text-slate-600 capitalize text-lg my-4 " >+1 5589 55488 55</p>
+            </div>
+
+          </div>
+
+          <div class="  flex gap-5  cursor-pointer">
+            <div class=" py-4 ">
+              <i class="fa-solid fa-envelope fa-1x p-3 bg-blue-500 text-white rounded-full"></i>
+            </div>
+            <div>
+              <h3 class="text-blue-950 capitalize text-xl flex justify-between">email Us</h3>
+            <p class="text-slate-600 capitalize text-lg my-4 " >info@example.com</p>
+            </div>
+
+          </div>
+         </div>
+
+         <div class="col-span-12 lg:col-span-7 space-y-6">
+          <div class="flex justify-between gap-5">
+            <input type="text" placeholder="your name" class="w-1/2 bg-white text-black border-2 border-blue-300 p-2">
+            <input type="email" placeholder="your email" class="w-1/2 bg-white text-black border-2 border-blue-300 p-2">
+          </div>
+          <div>
+            <textarea
+              placeholder="Subject"
+              class="textarea-xs w-full  border-2 border-blue-300 bg-white text-black p-2"></textarea>
+          </div>
+
+          <div>
+            <textarea
+              placeholder="Message"
+              class=" textarea-lg w-full border-2 border-blue-300 bg-white text-black p-4 "></textarea>
+          </div>
+
+          <button class="block mx-auto bg-blue-600 text-white text-lg font-semibold rounded-full px-9 py-3 capitalize">send message</button>
+          
+         </div>
+
+          </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- footer section-->
+    <footer class="footer bg-gray-100 shadow-lg text-black p-16">
+      <nav>
+        <h6 class="footer-title">Services</h6>
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Company</h6>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Legal</h6>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+    </footer>
+    <footer class="footer bg-gray-100 shadow-lg  text-black border-base-300 border-t px-16 py-4">
+      <aside class="grid-flow-col items-center">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          class="fill-current">
+          <path
+            d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path>
+        </svg>
+        <p>
+          ACME Industries Ltd.
+          <br />
+          Providing reliable tech since 1992
+        </p>
+      </aside>
+      <nav class="md:place-self-center md:justify-self-end">
+        <div class="grid grid-flow-col gap-4">
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current">
+              <path
+                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+            </svg>
+          </a>
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current">
+              <path
+                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+            </svg>
+          </a>
+          <a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current">
+              <path
+                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </footer>
+
+    
+
+
+
+
+
+   
+   <script src="./js/jquery-3.7.1.min.js"></script>
+
+   <script src="./js/index.js"></script>
+</body>
+</html>
+
+
+  
