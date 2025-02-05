@@ -2612,6 +2612,10 @@ html {
   justify-content: space-between;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
