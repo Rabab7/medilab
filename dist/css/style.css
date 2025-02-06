@@ -2338,6 +2338,14 @@ html {
   top: 6rem;
 }
 
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
 .-z-20 {
   z-index: -20;
 }
