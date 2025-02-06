@@ -59,6 +59,17 @@
     });
 
 
+ const aboutOffset = $("#about").offset().top
+$(window).on("scroll" , function(){
+    if($(window).scrollTop() > aboutOffset){
+        $("#navbar").addClass("fixed")
+        $(".scroll-to-top").fadeIn(1000)
+
+    }else{
+        $("#navbar").removeClass("fixed")
+        $(".scroll-to-top").fadeOut(500)
+    }
+})
   //  scroll to top icon
 
 
